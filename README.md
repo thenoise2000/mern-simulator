@@ -70,18 +70,25 @@ En la respuesta, busca el campo "address" dentro del objeto "data". Este valor e
 Realiza una solicitud GET al endpoint con los parámetros de consulta:
 
 URL: http://localhost:5000/api/payment-status
+
 Método: GET
+
 Headers:
 
 client-api-key: o0z8y85rjdx28iqef32f4mrl6e56b71742437588342
+
 content-type: application/json
+
 Parámetros (Params):
 
 network: BSC
+
 address: 0xF0aa1D166d26f18E0EDdB06E4cfCfc13B705B655
 
 ![Image3](https://github.com/user-attachments/assets/a1623f0f-fb20-40cf-b3ec-cf1f97aaeb25)
+
 Envía la solicitud.
+
 ![Image4](https://github.com/user-attachments/assets/a13483ac-c67a-4cfd-8038-2e1484f17eb8)
 - Paso 3: Para ejecutar tests
 
