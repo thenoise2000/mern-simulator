@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.App {
+    text-align: center;
+}
+.banner {
+    background-color: #4CAF50; /* Color de fondo del banner */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+.simulator-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #075a09; /* Color del botón Simular*/
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el mouse */
+}
+
+.button2 {
+    background-color: #921717; /* Color del botón Depositar*/
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #dd132e; 
+}
+
+.button3 {
+    background-color: #2311c4; /* Color del botón Revisar Pago */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: #5b9cf1; 
+}
+
+.button4 {
+    background-color: #df8f16; /* Color del botón Reset*/
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button4:hover {
+    background-color: #cabe0d; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
