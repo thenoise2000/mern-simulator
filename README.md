@@ -96,20 +96,26 @@ Ejecutar el cliente
 cd ../client
 npm run test
 
-                       /** Analisis de la solucion **/
+                                                     /** Analisis de la solucion **/
 
 Esquema de Arquitectura
 
 La arquitectura del proyecto se divide en dos partes principales:
 
 * Frontend (React):
+
 Interfaz de usuario interactiva para la simulación financiera.
+
 Comunicación con el backend a través de peticiones HTTP.
+
 Gestión del estado de la aplicación con React Hooks.
 
 * Backend (Node.js con Express):
+
 API REST para manejar las peticiones del frontend.
+
 Lógica de negocio para los cálculos financieros.
+
 Posible integración con una base de datos para persistencia de datos (si es necesario).
 
 ![Image5](https://github.com/user-attachments/assets/31c813c9-afd6-4283-a2c4-d2f24a9c6726)
@@ -117,15 +123,21 @@ Posible integración con una base de datos para persistencia de datos (si es nec
 Secuencia para la Simulación de un Pago:
 
 1 - El usuario introduce los datos del pago en el frontend.
+
 2 - El frontend envía una petición POST al backend con los datos del pago.
+
 3 - El backend realiza los cálculos necesarios y devuelve el resultado al frontend.
+
 4 - El frontend muestra el resultado al usuario.
 
 Secuencia para la Consulta del Estado de un Pago:
 
 1 - El usuario solicita el estado de un pago en el frontend.
+
 2 - El frontend envía una petición GET al backend con el ID del pago.
+
 3 - El backend consulta el estado del pago y lo devuelve al frontend.
+
 4 - El frontend muestra el estado del pago al usuario.
 
 Simulacion de pago
