@@ -43,9 +43,13 @@ npm start
 Primero, necesitamos obtener una dirección de billetera válida. Para hacer esto, realiza una solicitud POST al endpoint /api/create-payment con un valor para fundsGoal. Por ejemplo:
 
 URL: http://localhost:5000/api/create-payment
+
 Método: POST
-Encabezados:
+
+Headers:
+
 client-api-key: o0z8y85rjdx28iqef32f4mrl6e56b71742437588342
+
 content-type: application/json
 
 ![image1](https://github.com/user-attachments/assets/afdd4b7f-d603-428b-ad6b-b69fdd8fc3bc)
