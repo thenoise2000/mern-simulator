@@ -49,7 +49,6 @@ client-api-key: o0z8y85rjdx28iqef32f4mrl6e56b71742437588342
 content-type: application/json
 
 ![image1](https://github.com/user-attachments/assets/afdd4b7f-d603-428b-ad6b-b69fdd8fc3bc)
-
 Cuerpo (raw/JSON):
 
 JSON
@@ -58,8 +57,7 @@ JSON
   "fundsGoal": 10
 }
 
-############## IMage2 ##################
-
+![image2](https://github.com/user-attachments/assets/516b184b-fa64-4f38-8c05-2732e680c897)
 Envía la solicitud.
 En la respuesta, busca el campo "address" dentro del objeto "data". Este valor es la dirección de la billetera que necesitamos para las consultas de estatus de pago.
 
@@ -78,14 +76,9 @@ Parámetros (Params):
 network: BSC
 address: 0xF0aa1D166d26f18E0EDdB06E4cfCfc13B705B655
 
-############## IMage3 ##################
-
-
+![Image3](https://github.com/user-attachments/assets/a1623f0f-fb20-40cf-b3ec-cf1f97aaeb25)
 Envía la solicitud.
-
-############## IMage4 ##################
-
-
+![Image4](https://github.com/user-attachments/assets/a13483ac-c67a-4cfd-8038-2e1484f17eb8)
 - Paso 3: Para ejecutar tests
 
 Ejecutar el cliente
@@ -108,7 +101,7 @@ API REST para manejar las peticiones del frontend.
 Lógica de negocio para los cálculos financieros.
 Posible integración con una base de datos para persistencia de datos (si es necesario).
 
-###########################  Image 5 ################################
+![Image5](https://github.com/user-attachments/assets/31c813c9-afd6-4283-a2c4-d2f24a9c6726)
 
 Secuencia para la Simulación de un Pago:
 
@@ -128,28 +121,21 @@ Simulacion de pago
  
 El usuario introduce los datos del pago en el frontend y envia una peticion POST con los datos del pago
 
-###########################  Image 6 ################################
-
-
+![Image6](https://github.com/user-attachments/assets/061b196e-7691-4628-9fe0-3eb95aa39977)
 El backend realiza los cálculos necesarios y devuelve el resultado al frontend
 
-
-###########################  Image 7 ################################
-
-
+![Image7](https://github.com/user-attachments/assets/fad50043-f0e0-49b3-b80a-cf7d8cd4f1f0)
 Generacion del QA correspondiente al pago realizado
 
-###########################  Image 8 ################################
-
+![Image8](https://github.com/user-attachments/assets/e3f6c383-f809-4eda-a413-bf2407b5e90a)
 Exportacion de resultados a un archivo CSV 
 
-###########################  Image 9 ################################
+![Image9](https://github.com/user-attachments/assets/f1e604d7-63b6-47b3-b805-26287fd6df0a)
 
-###########################  Image 10 ################################
-
+![Image10](https://github.com/user-attachments/assets/bf2361fa-c6d0-48cc-be8a-3c3f3a993d3d)
 Revisar Pago 
 
 El botón hará una consulta sobre si ya recibió pago la wallet creada en el Single payment. Esta 
 consulta se hace cada vez que hacemos click en el botón
 
-###########################  Image 11 ################################
+![Image11](https://github.com/user-attachments/assets/38378760-4cc9-49e7-9ca8-9969c9ac66e5)
