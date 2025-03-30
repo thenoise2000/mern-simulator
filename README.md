@@ -23,17 +23,23 @@ Clonamos o desacargamos el repositorio git clone https://github.com/thenoise2000
 2. - Instalar dependencias
 
 cd mern-simulator/server
+
 npm install
 
 cd ../client
+
 npm install
 
 3. - Ejecutar el servidor
+
 cd ../server
+
 npm run dev (o npm start)
 
 4. - Ejecutar el cliente
+
 cd ../client
+
 npm start
 
 ############################  Instrucciones de ejecucion #############################
@@ -93,12 +99,14 @@ Envía la solicitud.
 - Paso 3: Para ejecutar tests
 
 Ejecutar el cliente
+
 cd ../client
+
 npm run test
 
                                                      /** Analisis de la solucion **/
 
-Esquema de Arquitectura
+# Esquema de Arquitectura
 
 La arquitectura del proyecto se divide en dos partes principales:
 
@@ -120,7 +128,7 @@ Posible integración con una base de datos para persistencia de datos (si es nec
 
 ![Image5](https://github.com/user-attachments/assets/31c813c9-afd6-4283-a2c4-d2f24a9c6726)
 
-Secuencia para la Simulación de un Pago:
+# Secuencia para la Simulación de un Pago:
 
 1 - El usuario introduce los datos del pago en el frontend.
 
@@ -130,7 +138,7 @@ Secuencia para la Simulación de un Pago:
 
 4 - El frontend muestra el resultado al usuario.
 
-Secuencia para la Consulta del Estado de un Pago:
+# Secuencia para la Consulta del Estado de un Pago:
 
 1 - El usuario solicita el estado de un pago en el frontend.
 
@@ -140,7 +148,7 @@ Secuencia para la Consulta del Estado de un Pago:
 
 4 - El frontend muestra el estado del pago al usuario.
 
-Simulacion de pago
+# Simulacion de pago
  
 El usuario introduce los datos del pago en el frontend y envia una peticion POST con los datos del pago
 
