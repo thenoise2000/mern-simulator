@@ -48,8 +48,7 @@ Encabezados:
 client-api-key: o0z8y85rjdx28iqef32f4mrl6e56b71742437588342
 content-type: application/json
 
-############## IMage1 ##################
-
+![image1](https://github.com/user-attachments/assets/afdd4b7f-d603-428b-ad6b-b69fdd8fc3bc)
 
 Cuerpo (raw/JSON):
 
